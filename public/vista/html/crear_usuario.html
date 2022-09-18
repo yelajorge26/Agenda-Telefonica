@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="/Practica04-Mi-Agenda-Telefonica/public/vista/css/formulario.css">
+    <script src="formulario.js"></script>
+    
+</head>
+<body>
+    <section class="registro" >
+        <h2>Formulario de Registro de Usuario</h2>
+        <form  class="formulario" name="formulario_registro"  method="POST" action = "../../controladores/crear_usuario.php">
+            <input class="controles" type="text" name="cedula" id="n1" placeholder="Ingrese su Cedula" >
+            <span id="mensajeCedula" ></span><br>
+
+            <input class="controles" type="text" name="nombre" id="n1" placeholder="Ingrese su Nombre" >
+            <span id="mensajenombre" ></span><br>
+
+            <input class="controles" type="text" name="apellido" id="n1" placeholder="Ingrese su Apellidos" >
+            <span id="mensajeapellido" ></span><br>
+
+            <input class="controles" type="text" name="direccion" id="n2" placeholder="Ingrese su Direccion" >
+
+            <input class="controles" type="text" name="correo" id="n1" placeholder="Ingrese su Correo" >
+            <span id="mensajecorreo" ></span><br>
+
+            <input class="controles" type="text" name="telfini" id="n1" placeholder="Ingrese su numero telefonico" >
+            <span id="mensajeTelefono" ></span><br>
+
+            <input class="controles" type="text" name="operadora" id="n1" placeholder="Ingrese su operadora" >
+            <span id="mensajeOperadora" ></span><br>
+
+            <input class="controles" type="password" name="psw" id="n1" placeholder="Ingrese su Contrasena" >
+            <span id="mensajepsw" ></span><br>
+
+            <p>Estoy de acuerdo con <a href="#">Terminos y condiciones</a></p>
+            <input class="botones" type="submit" value="Registrar" >
+        </form>
+
+    </section>
+    
+</body>
+</html>

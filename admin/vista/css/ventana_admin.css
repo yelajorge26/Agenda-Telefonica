@@ -1,0 +1,327 @@
+* {
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+* #contenedor {  
+    background: black;
+}
+* #cabecera {
+    background: #102747;
+    height: 15%;
+}
+* #menu {
+    float: left;
+    width: 15%;
+    height: 85%;
+    background: #265FAD;
+}
+* #contenido {
+    float: left;
+    width: 85%;
+    height: 85%;
+    background: white;
+}
+* #pie {
+    height: 10%;
+    background: #193D71;
+    clear: both;
+    
+} 
+
+#cabecera #fotoCabecera{
+    margin: 3px;
+    height: 95%;
+    width: 30%;
+}
+
+#cabecera #salida{
+    float: right;
+    width: 130px;
+    height: 20px;
+    margin-top: 40px;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+#cabecera #salida:hover{
+    color: white;
+}
+
+
+#menu #fotoAdmin {
+    margin: 5%;
+    
+    width: 90%;
+    height: 27%;
+}
+
+#menu #margen {
+    margin: 5%;
+    width: 90%;
+    height: auto;
+    text-align: center;
+    
+}
+#menu p{
+    font-size: 20px;
+}
+
+#menu #botones{
+    margin: 3px;
+    height: 40px;
+    font-size: 15px;
+    background: #FFFFFF;
+    cursor: pointer;
+}
+
+#menu #botones:hover{
+    color: black;
+    text-decoration: underline;
+    background: #BACDEB;
+}
+
+
+
+#contenido #margenCF1 {
+    margin: 25px;
+    padding-top: 10px;
+    margin-bottom: 20px;
+    width: 400px;
+    height: 425px;
+    text-align: center;
+    margin-left: 150px;
+    
+}
+
+#margenCF1 .formulario{
+    width: 300px;
+    height: 450px;
+    background: rgb(15, 51, 103);
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid black;
+    font-size: 18px;
+}
+
+.formulario .controles{
+    width: 250px;
+    height: 40px;
+    margin: 5px;
+    font-size: 17px;
+}
+
+.formulario .botones{
+    width: 260px;
+    height: 40px;
+    margin: 5px;
+    font-size: 17px
+}
+
+
+
+#contenido #margenCF2 {
+    margin: 25px;
+    padding-top: 10px;
+    margin-bottom: 20px;
+    width: 400px;
+    height: 425px;
+    text-align: center;
+    margin-left: 150px;
+    
+}
+
+#margenCF2 .formulario2{
+    width: 300px;
+    height: 450px;
+    background: rgb(15, 51, 103);
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid black;
+    font-size: 18px;
+}
+
+.formulario2 .controles2{
+    width: 250px;
+    height: 40px;
+    margin: 5px;
+    font-size: 17px
+}
+
+.formulario2 .botones2{
+    width: 260px;
+    height: 40px;
+    margin: 5px;
+    font-size: 17px
+}
+
+
+
+
+#contenido #margenCF3 {
+    margin: 25px;
+    padding-top: 10px;
+    margin-bottom: 20px;
+    width: 400px;
+    height: 425px;
+    text-align: center;
+    margin-left: 150px;
+}
+
+#margenCF3 .formulario3{
+    width: 300px;
+    height: 155px;
+    background: rgb(15, 51, 103);
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid black;
+    font-size: 18px;
+}
+
+.formulario3 .controles3{
+    width: 250px;
+    height: 40px;
+    margin: 5px;
+    font-size: 17px
+}
+
+.formulario3 .botones3{
+    width: 260px;
+    height: 40px;
+    margin: 5px;
+    font-size: 17px
+}
+
+
+
+
+#contenido #margenCF4 {
+    margin: 25px;
+    padding-top: 10px;
+    margin-bottom: 20px;
+    width: 400px;
+    height: 425px;
+    text-align: center;
+    margin-left: 150px;
+}
+
+#margenCF4 .formulario4{
+    width: 300px;
+    height: 155px;
+    background: rgb(15, 51, 103);
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid black;
+    font-size: 18px;
+}
+
+.formulario4 .controles4{
+    width: 250px;
+    height: 40px;
+    margin: 5px;
+    font-size: 17px
+}
+
+.formulario4 .botones4{
+    width: 260px;
+    height: 40px;
+    margin: 5px;
+    font-size: 17px
+}
+
+
+
+
+
+
+
+#contenido #margenCF5 {
+    margin: 25px;
+    padding-top: 10px;
+    margin-bottom: 20px;
+    width: 400px;
+    height: 425px;
+    text-align: center;
+    margin-left: 150px;
+}
+#margenCF5 .formulario5{
+    width: 300px;
+    height: 155px;
+    background: rgb(15, 51, 103);
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid black;
+    font-size: 18px;
+}
+
+.formulario5 .controles5{
+    width: 250px;
+    height: 40px;
+    margin: 5px;
+    font-size: 17px
+}
+
+.formulario5 .botones5{
+    width: 260px;
+    height: 40px;
+    margin: 5px;
+    font-size: 17px
+}
+
+
+
+
+#contenido #margenCF6 {
+    margin: 25px;
+    padding-top: 10px;
+    margin-bottom: 20px;
+    width: 400px;
+    height: 425px;
+    text-align: center;
+    margin-left: 150px;
+}
+
+
+#contenido #margenCF7 {
+    margin: 20px;
+    margin-bottom: 20px;
+    width: 400px;
+    height: 35px;
+    text-align: center;
+    margin-left: 150px;
+}
+
+#margenCF7 .formulario7{
+    width: 300px;
+    height: 195px;
+    background: rgb(15, 51, 103);
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid black;
+    font-size: 18px;
+}
+
+.formulario7 .controles7{
+    width: 250px;
+    height: 40px;
+    margin: 5px;
+    font-size: 17px
+}
+
+.formulario7 .botones7{
+    width: 260px;
+    height: 40px;
+    margin: 5px;
+    font-size: 17px
+}
+
+
+
+
